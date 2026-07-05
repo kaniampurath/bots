@@ -1,0 +1,11 @@
+[project]
+name = "bot-v7"
+version = "0.1.0"
+description = "Governed bot trading lifecycle and learning platform"
+requires-python = ">=3.11"
+dependencies = [
+    "PyMySQL>=1.1",
+]
+
+[tool.unittest]
+start-directory = "tests"
