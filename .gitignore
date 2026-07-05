@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+artifacts/runtime/
+models/runtime/
+*.db
+*.sqlite
+.pytest_cache/
+.coverage
